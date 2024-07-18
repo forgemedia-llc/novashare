@@ -4,8 +4,8 @@ Donate link: https://novashare.io
 Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
-Tested up to: 6.5.3
-Stable tag: 1.5.1
+Tested up to: 6.6
+Stable tag: 1.5.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,9 +29,16 @@ Check out our [documentation](https://novashare.io/docs/) for more information o
 
 == Changelog ==
 
+= 1.5.2 - 07.16.2024 =
+* Added Pinterest Description fields back throughout the plugin which will tie directly to the description parameter shared on Pinterest links to help with internal search.
+* Updated our staging site license key exception list with additional formats.
+* Minor style adjustments to the plugin UI.
+* Moved from using global $post variable to pulling from the queried object to prevent conflicts with other plugins.
+* Removed certain rel attribute values from links that are no longer needed for modern browsers.
+
 = 1.5.1 - 05.24.2024 =
 * Updated our staging site license key exception list with additional formats.
-* Fixed an issue with image pins where the first image in the post would be shared instead of image that was clicked on.
+* Fixed an issue with image pins where the first image in the post would be shared instead of the image that was clicked on.
 * Fixed an issue where the open graph image would sometimes show up in the image grid even when the behavior was set to show only Pinterest images.
 * Fixed an issue where field validation was preventing some Mastodon username formats from being entered.
 
