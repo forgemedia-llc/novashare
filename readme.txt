@@ -4,8 +4,8 @@ Donate link: https://novashare.io
 Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
-Tested up to: 6.6
-Stable tag: 1.5.2
+Tested up to: 6.6.1
+Stable tag: 1.5.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,17 +18,22 @@ WordPress social sharing at the speed of light.
 = Features =
 
 * Blazing fast. Scripts don’t run where they shouldn’t and it uses inline SVG icons without the overhead of third-party libraries.
-* Easy UI with no admin menu clutter. Enable inline share buttons, floating, or both. Pick from 25+ different networks and match your site’s branding in seconds.
-* Block editor support for on-the-fly previews and customization, including a share block, follow block, and click to post block.
+* Easy UI with no admin menu clutter. Enable inline share buttons, floating, or both. Pick from 24+ different networks and match your site’s branding in seconds.
 * Show off your most popular content by enabling share counts.
 * Responsive and works on all devices, from desktops to mobile phones. Set breakpoints above and below where you want to hide your share buttons.
-* Utilize extra features such as Pinterest hover pins, share window, and link shortening.
+* Utilize extra features such as the Click to Tweet block, Pinterest hover pins, share window, follow widget, and link shortening.
 
 = Documentation =
 
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.5.3 - 08.06.2024 =
+* Fixed an issue where the old twitter domain link was redirecting and duplicating the query string parameters passed through.
+* Added an additional post object check to prevent a PHP warning in certain cases.
+* Updated our staging site license key exception list with additional formats.
+* Minor style adjustments to the plugin UI.
 
 = 1.5.2 - 07.16.2024 =
 * Added Pinterest Description fields back throughout the plugin which will tie directly to the description parameter shared on Pinterest links to help with internal search.
