@@ -18,10 +18,10 @@ WordPress social sharing at the speed of light.
 = Features =
 
 * Blazing fast. Scripts don’t run where they shouldn’t and it uses inline SVG icons without the overhead of third-party libraries.
-* Easy UI with no admin menu clutter. Enable inline share buttons, floating, or both. Pick from 24+ different networks and match your site’s branding in seconds.
+* Easy UI with no admin menu clutter. Enable inline share buttons, floating, or both. Pick from 25+ different networks and match your site’s branding in seconds.
 * Show off your most popular content by enabling share counts.
 * Responsive and works on all devices, from desktops to mobile phones. Set breakpoints above and below where you want to hide your share buttons.
-* Utilize extra features such as the Click to Tweet block, Pinterest hover pins, share window, follow widget, and link shortening.
+* Utilize extra features such as Pinterest hover pins, share window, and link shortening.
 
 = Documentation =
 
@@ -30,7 +30,7 @@ Check out our [documentation](https://novashare.io/docs/) for more information o
 == Changelog ==
 
 = 1.5.3 - 08.06.2024 =
-* Fixed an issue where the old twitter domain link was redirecting and duplicating the query string parameters passed through.
+* Fixed an issue where the old Twitter domain link was redirecting and duplicating the query string parameters passed through.
 * Added an additional post object check to prevent a PHP warning in certain cases.
 * Updated our staging site license key exception list with additional formats.
 * Minor style adjustments to the plugin UI.
