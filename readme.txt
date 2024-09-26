@@ -4,8 +4,8 @@ Donate link: https://novashare.io
 Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
-Tested up to: 6.6.1
-Stable tag: 1.5.3
+Tested up to: 6.6.2
+Stable tag: 1.5.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,6 @@ WordPress social sharing at the speed of light.
 
 * Blazing fast. Scripts don’t run where they shouldn’t and it uses inline SVG icons without the overhead of third-party libraries.
 * Easy UI with no admin menu clutter. Enable inline share buttons, floating, or both. Pick from 25+ different networks and match your site’s branding in seconds.
-* Block editor support for on-the-fly previews and customization, including a share block, follow block, and click to post block.
 * Show off your most popular content by enabling share counts.
 * Responsive and works on all devices, from desktops to mobile phones. Set breakpoints above and below where you want to hide your share buttons.
 * Utilize extra features such as Pinterest hover pins, share window, and link shortening.
@@ -29,6 +28,16 @@ WordPress social sharing at the speed of light.
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.5.4 - 09.26.2024 =
+* Added share and follow button support for Bluesky network.
+* Updated share button functionality to now open in a new browser tab instead of a popup window for relevant networks. This allows us to completely remove the frontend Novashare JavaScript file which is no longer needed with these changes. Pinterest-specific JavaScript to manage the image grid will now be printed inline when needed.
+* Optimized plugin logo and inline SVG network icons.
+* Fixed an issue where the license tab was showing up at the subsite level if the plugin was not network activated in a multisite environment.
+* Fixed an issue where X share button was not handing off to the native app when on a mobile device.
+* Fixed an issue where a blank tab would sometimes be left behind in the browser on mobile when handing off to a native app.
+* Removed deprecated API calls for TwitCount and OpenShareCount.
+* Updated Grow references to Hubbub in the Novashare Migrator.
 
 = 1.5.3 - 08.06.2024 =
 * Fixed an issue where the old Twitter domain link was redirecting and duplicating the query string parameters passed through.
