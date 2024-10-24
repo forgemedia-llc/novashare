@@ -5,7 +5,7 @@ Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
 Tested up to: 6.6.2
-Stable tag: 1.5.5
+Stable tag: 1.5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,15 @@ WordPress social sharing at the speed of light.
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.5.6 - 10.24.2024 =
+* Added new Highlight feature which allows for sharing of highlighted text in page and post content to supported networks.
+* Adjusted aria-label attributes throughout the plugin to be more specific to element actions.
+* Fixed an issue where the inline JavaScript wasn't printing correctly if only the floating bar was being used on the page.
+* Fixed the missing plugin UI color for the Hacker News network.
+* Fixed an issue where Pinterest image buttons were displaying incorrectly if there was another pinit.js script loading on the site.
+* Fixed an issue with the logo scaling in the plugin UI on smaller devices.
+* Translation updates.
 
 = 1.5.5 - 09.27.2024 =
 * Fixed an issue where image pin links were not opening correctly when sharing a single image.
