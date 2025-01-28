@@ -5,7 +5,7 @@ Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
 Tested up to: 6.7.1
-Stable tag: 1.5.7
+Stable tag: 1.5.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,16 @@ WordPress social sharing at the speed of light.
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.5.8 - 01.28.2025 =
+* Added new Show Labels control to the follow buttons block.
+* Updated all blocks to API version 3 to support rendering the block inside the post editor iframe.
+* Fixed multiple deprecated UI element warnings showing up in the block editor.
+* Fixed a missing anchor link pointing to the license tab in our plugin settings UI.
+* Fixed an issue where additional CSS classes set in the advanced section of the share buttons block were not added to the HTML output.
+* Fixed an encoding issue with certain Pinterest descriptions when added to page images for the image grid via JavaScript.
+* Some minor code refactoring and style cleanup.
+* Removed trailing empty block style in the main stylesheet that was previously used to fix a block editor enqueuing issue.
 
 = 1.5.7 - 12.13.2024 =
 * Added new conditional inline JavaScript to dynamically add Pinterest descriptions to content images when using the image grid.
