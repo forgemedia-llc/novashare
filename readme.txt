@@ -4,8 +4,8 @@ Donate link: https://novashare.io
 Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
-Tested up to: 6.7.1
-Stable tag: 1.5.8
+Tested up to: 6.7.2
+Stable tag: 1.5.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,17 @@ WordPress social sharing at the speed of light.
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.5.9 - 03.05.2025 =
+* Added new location follow button.
+* Added support for image pin buttons to appear on images inside Bricks editor content.
+* Added dynamic label font size for follow buttons relative to the overall size set for the buttons.
+* Fixed an issue where the follow block height would not always display correctly in the editor.
+* Fixed a display error that could sometimes happen with certain follow block networks.
+* Fixed an issue where Pinterest image content was returning blank when no global post data was available.
+* Fixed multiple display issues with highlight buttons that could happen with specific setups.
+* Moved the show on scroll load event to an event listener to prevent conflicts with other onload events.
+* Updated our staging site license key exception list with additional formats.
 
 = 1.5.8 - 01.28.2025 =
 * Added new Show Labels control to the follow buttons block.
