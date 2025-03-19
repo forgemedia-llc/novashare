@@ -17,11 +17,12 @@ WordPress social sharing at the speed of light.
 
 = Features =
 
-* Blazing fast. Scripts don’t run where they shouldn’t and it uses inline SVG icons without the overhead of third-party libraries.
+* Blazing fast. Scripts don’t run where they shouldn’t and it uses inline SVG icons without the overhead of third-party libraries. There is no jQuery dependency, and no JS is loaded with basic setups.
 * Easy UI with no admin menu clutter. Enable inline share buttons, floating, or both. Pick from 25+ different networks and match your site’s branding in seconds.
+* Blocks for every feature, which enables on-the-fly previews and customization.
 * Show off your most popular content by enabling share counts.
 * Responsive and works on all devices, from desktops to mobile phones. Set breakpoints above and below where you want to hide your share buttons.
-* Utilize extra features such as Pinterest hover pins, share window, and link shortening.
+* Utilize extra features such as Pinterest hover pins, share window, highlight share, and link shortening.
 
 = Documentation =
 
