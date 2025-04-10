@@ -5,7 +5,7 @@ Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
 Tested up to: 6.7.2
-Stable tag: 1.5.9
+Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,12 @@ WordPress social sharing at the speed of light.
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.6.0 - 04.10.2025 =
+* Added share button support for Nextdoor network.
+* Added new Total Share Count and Network Share Count options to share button section with additional frontend styles to display the total share count at the top of the share window.
+* Adjusted total share count calculations to display the combined total regardless of network selection if the share button is being used.
+* Deployed a secondary API that can be used when the client has issues communicating with our licensing server (usually due to firewalls).
 
 = 1.5.9 - 03.05.2025 =
 * Added new location follow button.
