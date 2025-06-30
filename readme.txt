@@ -4,8 +4,8 @@ Donate link: https://novashare.io
 Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
-Tested up to: 6.7.2
-Stable tag: 1.6.0
+Tested up to: 6.8.1
+Stable tag: 1.6.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,16 @@ WordPress social sharing at the speed of light.
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.6.1 - 06.30.2025 =
+* Added new novashare_page_builders filter.
+* Added new Pinterest image pin options for Image Placement to control which images get pin buttons added. The novashare_pinterest_image_excluded filter that was previously used for whitelisting will still work for the time being, but that will now be managed in the UI going forward.
+* Started work on moving more universal style properties like button size and button margin to CSS variables.
+* Refactored specific portions of the main frontend stylesheet, reducing the file size by 7.69%. We recommend that you clear all cache layers (Unused/Critical CSS, server cache, CDN cache) after updating.
+* Cleaned up and removed redundant inline style overrides for inline content buttons.
+* Adjusted admin UI JavaScript to allow for child options to have multiple controllers of different types.
+* Fixed an issue where floating bar buttons were being added to the Bricks editor UI.
+* Fixed an issue where Facebook share button was not working correctly on mobile.
 
 = 1.6.0 - 04.10.2025 =
 * Added share button support for Nextdoor network.
