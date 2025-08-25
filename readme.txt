@@ -4,8 +4,8 @@ Donate link: https://novashare.io
 Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
-Tested up to: 6.8.1
-Stable tag: 1.6.1
+Tested up to: 6.8.2
+Stable tag: 1.6.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,16 @@ WordPress social sharing at the speed of light.
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.6.2 - 08.25.2025 =
+* Added new AI share buttons for ChatGPT, Grok, and Perplexity which link to a prompt that will summarize the shared post's content.
+* Added follow button support for Nextdoor.
+* Updated Nextdoor brand colors.
+* Adjusted copy button URL to work with existing novashare_permalink filter when displayed on single posts.
+* Fixed multiple PHP warnings coming from the follow widget class.
+* Fixed an issue where floating bar icons were not centering properly when fill available space option was being used.
+* Reverted Facebook share button mobile URL to use web link to be more compatible with all platforms.
+* Updated our staging site license key exception list with additional formats.
 
 = 1.6.1 - 06.30.2025 =
 * Added new novashare_page_builders filter.
