@@ -4,8 +4,8 @@ Donate link: https://novashare.io
 Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
-Tested up to: 6.8.2
-Stable tag: 1.6.2
+Tested up to: 6.8.3
+Stable tag: 1.6.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,12 @@ WordPress social sharing at the speed of light.
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.6.3 - 10.21.2025 =
+* Added new AI share buttons for Claude and Google AI.
+* Added new novashare_ai_network_text filter.
+* Added support to set the Novashare license key via wp-config.php using the NOVASHARE_LICENSE_KEY constant.
+* Removed Pocket share network from the plugin, as they have shut down.
 
 = 1.6.2 - 08.25.2025 =
 * Added new AI share buttons for ChatGPT, Grok, and Perplexity which link to a prompt that will summarize the shared post's content.
