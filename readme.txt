@@ -4,8 +4,8 @@ Donate link: https://novashare.io
 Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
-Tested up to: 6.8.3
-Stable tag: 1.6.3
+Tested up to: 6.9
+Stable tag: 1.6.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,14 @@ WordPress social sharing at the speed of light.
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.6.4 - 01.01.2026 =
+* Added new share button for Mistral AI.
+* Made some minor adjustments to various network SVG viewBox values to be more consistent throughout the plugin.
+* Changed hidden Pinterest images to use image thumbnails for the src attribute instead of the full image to save on overall load.
+* Made some changes to the Novashare Details meta box UI to be more consistent and improve selected image visibility.
+* Updated EDD plugin updater class to version 1.9.4.
+* Fixed a PHP warning that would sometimes show up when checking for post short links.
 
 = 1.6.3 - 10.21.2025 =
 * Added new AI share buttons for Claude and Google AI.
