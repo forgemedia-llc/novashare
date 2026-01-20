@@ -5,7 +5,7 @@ Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
 Tested up to: 6.9
-Stable tag: 1.6.4
+Stable tag: 1.6.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,9 @@ WordPress social sharing at the speed of light.
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.6.5 - 01.19.2026 =
+* Fixed an issue where the Social Media Title meta box field was not saving new values correctly.
 
 = 1.6.4 - 01.01.2026 =
 * Added new share button for Mistral AI.
