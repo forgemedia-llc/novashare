@@ -4,8 +4,8 @@ Donate link: https://novashare.io
 Tags: novashare
 Requires at least: 5.5
 Requires PHP: 7.0
-Tested up to: 6.9
-Stable tag: 1.6.5
+Tested up to: 6.9.4
+Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,16 @@ WordPress social sharing at the speed of light.
 Check out our [documentation](https://novashare.io/docs/) for more information on how to use Novashare.
 
 == Changelog ==
+
+= 1.6.6 - 03.12.2026 =
+* Added new share and follow buttons for Gab.
+* Added new novashare_share_link_target filter.
+* Updated Mastodon share link to use their new official share landing workflow.
+* Made plugin UI styles adjustments in preparation for WordPress 7.
+* Made improvements to visual transitions during hard reloads in the plugin UI.
+* Fixed an issue in the post meta UI where images were expanding beyond their containers on some sites.
+* Fixed multiple plugin UI HTML warnings for incorrect label target IDs.
+* Removed some old redundant tooltip styles from the admin stylesheet.
 
 = 1.6.5 - 01.19.2026 =
 * Fixed an issue where the Social Media Title meta box field was not saving new values correctly.
